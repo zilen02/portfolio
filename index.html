@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="style.css" />
+    <!-------icon-------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--------CSS-------->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!--------HEADER PROFILE--------->
+    <header class="profile cont">
+      <!------Theme button------->
+      <i class="ri-moon-line" id="theme-button"></i>
+
+      <div class="profile_cont grid">
+        <div class="profile_data">
+          <div class="profile_border">
+            <div class="profile_perfil">
+              <img src="./user.png" alt="" />
+            </div>
+          </div>
+          <h2 class="profile_name">Zilen Modi</h2>
+          <h3 class="profile_prof">Software Engineer</h3>
+
+          <ul class="profile_social">
+            <a
+              href="https://www.instagram.com/zilenmodi/"
+              target="_blank"
+              class="profile_social-link"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/zilen-modi-8313b41a3/"
+              target="_blank"
+              class="profile_social-link"
+            >
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+            <a
+              href="https://github.com/zilen02"
+              target="_blank"
+              class="profile_social-link"
+            >
+              <i class="ri-github-line"></i>
+            </a>
+          </ul>
+        </div>
+        <div class="profile_info grid">
+          <div class="profile_group">
+            <h3 class="profile_number">2</h3>
+            <p class="profile_description">
+              Years of <br />
+              Projects
+            </p>
+          </div>
+          <div class="profile_group">
+            <h3 class="profile_number">7+</h3>
+            <p class="profile_description">
+              Completed <br />
+              Projects
+            </p>
+          </div>
+          <div class="profile_group">
+            <h3 class="profile_number">1000+</h3>
+            <p class="profile_description">
+              DSA <br />
+              Questions
+            </p>
+          </div>
+        </div>
+        <div class="profile_buttons">
+          <!-----insert CV------>
+          <a
+            download=""
+            href="https://drive.google.com/file/d/1HWGhTjGdKRyAd--xmIEOvUOz9xNJY8XK/view"
+            class="button"
+          >
+            Download CV <i class="ri-download-line"></i>
+          </a>
+          <div class="profile_buttons-s">
+            <a
+              target="_blank"
+              href="https://wa.me/919724666420?text=Hello%2C%20It%E2%80%99s%20Zilen%20Modi."
+              class="button btn_s btn_gray"
+            >
+              <i class="ri-whatsapp-line"></i>
+            </a>
+            <a
+              target="_blank"
+              href="mailto:zilenmodi@gmail.com"
+              target="_blank"
+              class="button btn_s btn_gray"
+            >
+              <i class="ri-mail-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-------main--------->
+    <main class="main">
+      <section class="filter cont">
+        <!---------filter tabs------->
+        <ul class="filter_content">
+          <button class="filter_btn filter-tab-active" data-target="#projects">
+            Projects
+          </button>
+          <button class="filter_btn" data-target="#skills">Skills</button>
+        </ul>
+        <div class="filter-section">
+          <!--------projects--------->
+          <div
+            class="projects_content grid filter_active"
+            data-content
+            id="projects"
+          >
+            <article class="projects_cards">
+              <img
+                style="opacity: 80%; background-color: #000"
+                src="./memories.png"
+                alt=""
+                class="projects_img"
+              />
+              <div class="projects_mod">
+                <div>
+                  <span style="color: #000" class="projects_subtitle">Web</span>
+                  <h3 style="color: #000" class="projects_title">
+                    Memories website
+                  </h3>
+                  <a
+                    target="_blank"
+                    href="https://imymemories.netlify.app/posts"
+                    class="projects_button button btn_s"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects_cards">
+              <img
+                style="opacity: 80%; background-color: #000"
+                src="./projectm.png"
+                alt=""
+                class="projects_img"
+              />
+              <div class="projects_mod">
+                <div>
+                  <span style="color: #000" class="projects_subtitle">Web</span>
+                  <h3 style="color: #000" class="projects_title">
+                    Project Manager
+                  </h3>
+                  <a
+                    target="_blank"
+                    href="https://iprojectmanager.netlify.app/"
+                    class="projects_button button btn_s"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects_cards">
+              <img
+                style="opacity: 80%;"
+                src="./traveladvisor.png"
+                alt=""
+                class="projects_img"
+              />
+              <div class="projects_mod">
+                <div>
+                  <span style="color: #000" class="projects_subtitle">Web</span>
+                  <h3 style="color: #000" class="projects_title">
+                    Travel Advisor
+                  </h3>
+                  <a
+                    target="_blank"
+                    href="https://itraveladvisor.netlify.app/"
+                    class="projects_button button btn_s"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects_cards">
+              <img
+                style="opacity: 80%;"
+                src="./news.png"
+                alt=""
+                class="projects_img"
+              />
+              <div class="projects_mod">
+                <div>
+                  <span style="color: #000" class="projects_subtitle">Web</span>
+                  <h3 style="color: #000" class="projects_title">
+                    News Website
+                  </h3>
+                  <a
+                    target="_blank"
+                    href="https://ialannews.netlify.app/"
+                    class="projects_button button btn_s"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects_cards">
+              <img
+                style="opacity: 80%;"
+                src="./crypt.png"
+                alt=""
+                class="projects_img"
+              />
+              <div class="projects_mod">
+                <div>
+                  <span style="color: #000" class="projects_subtitle">Web</span>
+                  <h3 style="color: #000" class="projects_title">
+                    Cryptoverse Website
+                  </h3>
+                  <a
+                    target="_blank"
+                    href="https://icryptoverse.netlify.app/"
+                    class="projects_button button btn_s"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects_cards">
+              <img
+                style="opacity: 80%;"
+                src="./pathfinder.png"
+                alt=""
+                class="projects_img"
+              />
+              <div class="projects_mod">
+                <div>
+                  <span style="color: #000" class="projects_subtitle">Web</span>
+                  <h3 style="color: #000" class="projects_title">
+                    Path Finder
+                  </h3>
+                  <a
+                    target="_blank"
+                    href="https://zilen02.github.io/Path-Finder/#"
+                    class="projects_button button btn_s"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects_cards">
+              <img
+                style="opacity: 80%;"
+                src="./wordsearch.png"
+                alt=""
+                class="projects_img"
+              />
+              <div class="projects_mod">
+                <div>
+                  <span style="color: #000" class="projects_subtitle">Web</span>
+                  <h3 style="color: #000" class="projects_title">
+                    WordSearch Website
+                  </h3>
+                  <a
+                    target="_blank"
+                    href="https://iwordsearch.netlify.app/"
+                    class="projects_button button btn_s"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects_cards">
+              <img
+                style="opacity: 80%;"
+                src="./moneysplit.png"
+                alt=""
+                class="projects_img"
+              />
+              <div class="projects_mod">
+                <div>
+                  <span style="color: #000" class="projects_subtitle">Web</span>
+                  <h3 style="color: #000" class="projects_title">
+                    SplitWise Website
+                  </h3>
+                  <a
+                    target="_blank"
+                    href="https://zilen02.github.io/Minimum-Cash-Flow/"
+                    class="projects_button button btn_s"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!--------Skills---------->
+          <div class="skills-content grid" data-content id="skills">
+            <div class="skills_area">
+              <h3 class="skills_title">Frontend Developer</h3>
+
+              <div class="skills_box">
+                <div class="skills_group">
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">React</h3>
+                      <span class="skills_level">Intermediate</span>
+                    </div>
+                  </div>
+
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">Bootstap</h3>
+                      <span class="skills_level">Intermediate</span>
+                    </div>
+                  </div>
+
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">Github</h3>
+                      <span class="skills_level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills_group">
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">HTML</h3>
+                      <span class="skills_level">advance</span>
+                    </div>
+                  </div>
+
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">CSS</h3>
+                      <span class="skills_level">Advance</span>
+                    </div>
+                  </div>
+
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">React</h3>
+                      <span class="skills_level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skills_area">
+              <h3 class="skills_title">Backend Developer</h3>
+
+              <div class="skills_box">
+                <div class="skills_group">
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">PHP</h3>
+                      <span class="skills_level">Intermediate</span>
+                    </div>
+                  </div>
+
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">MYSQL</h3>
+                      <span class="skills_level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills_group">
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">Node JS</h3>
+                      <span class="skills_level">advance</span>
+                    </div>
+                  </div>
+
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">Python</h3>
+                      <span class="skills_level">basic</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!---------Footer--------->
+    <footer class="footer cont">
+      <!-- <span class="footer"> ***************** </span> -->
+    </footer>
+    <!---------Scroll---------->
+    <script src="scrollreveal.min.js"></script>
+
+    <!---------main script---------->
+    <script src="script.js"></script>
+  </body>
+</html>
